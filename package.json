@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      "apibus-driver@1.2.9",
+      "C:\\Users\\HMUOA880\\Documents\\Apps\\Core\\api-bus"
+    ]
+  ],
+  "_from": "apibus-driver@1.2.9",
+  "_id": "apibus-driver@1.2.9",
+  "_inBundle": false,
+  "_integrity": "sha512-I8znLX2R2KLaLgb2z6/8uHgBsSpNggUmjifOI0+2ES5pEvZ2OUV8RwPN3SP3LJc+YcCabVuVJ+f6Coe+yBM2YA==",
+  "_location": "/apibus-driver",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "apibus-driver@1.2.9",
+    "name": "apibus-driver",
+    "escapedName": "apibus-driver",
+    "rawSpec": "1.2.9",
+    "saveSpec": null,
+    "fetchSpec": "1.2.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/apibus-driver/-/apibus-driver-1.2.9.tgz",
+  "_shasum": "1156f90f7356b8c8a3e13e7c442e796a108586df",
+  "_spec": "1.2.9",
+  "_where": "C:\\Users\\HMUOA880\\Documents\\Apps\\Core\\api-bus",
+  "author": {
+    "name": "Arce Muñoz Ocampo"
+  },
+  "dependencies": {
+    "clone": "^2.1.2",
+    "cluster": "^0.7.7",
+    "dns": "^0.2.2",
+    "dotenv": "^8.1.0",
+    "events": "^3.0.0",
+    "ip": "^1.1.5",
+    "mongodb": "^3.4.1",
+    "underscore": "^1.9.1",
+    "uniqid": "^5.1.0",
+    "zeromq": "^5.1.0"
+  },
+  "deprecated": false,
+  "description": "Driver de conexión al API BUS",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "ISC",
+  "main": "./lib/start.js",
+  "name": "apibus-driver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.3.1"
+}
